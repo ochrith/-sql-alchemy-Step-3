@@ -1,0 +1,28 @@
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./outputs:/app/outputs
+      - ./db:/app/db
+
+  database:
+    build:
+      context: .
+      dockerfile: database/Dockerfile
+    volumes:
+      - ./db:/app/db
+
+  explainer:
+    build:
+      context: .
+      dockerfile: explainer/Dockerfile
+    volumes:
+      - ./uploads:/app/uploads
+      - ./outputs:/app/outputs
+      - ./db:/app/db

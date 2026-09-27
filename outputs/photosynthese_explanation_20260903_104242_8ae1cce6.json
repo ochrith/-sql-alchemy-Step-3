@@ -1,0 +1,26 @@
+[
+    {
+        "slide": 1,
+        "text_extracted": [
+            "La Photosynthèse : Définition et Rôle",
+            "Qu'est-ce que la photosynthèse ?",
+            "• Processus biochimique essentiel réalisé par les plantes vertes, les algues et certaines bactéries.",
+            "• Permet de convertir l'énergie lumineuse (soleil) en énergie chimique (sucre).",
+            "• Prend place dans les chloroplastes des cellules végétales grâce à la chlorophylle.",
+            "• Essentiel pour la vie sur Terre : produit le dioxygène (O2) que nous respirons."
+        ],
+        "gemini_analysis": "Gemini error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 8.924806054s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}"
+    },
+    {
+        "slide": 2,
+        "text_extracted": [
+            "Équation Chimique et Fonctionnement",
+            "L'équation globale :",
+            "6 CO2 + 6 H2O + Lumière ➔ C6H12O6 (Glucose) + 6 O2",
+            "Les deux grandes phases :",
+            "• Phase lumineuse (dépendante de la lumière) : Capture l'énergie solaire et sépare l'eau (H2O), libérant ainsi du dioxygène (O2).",
+            "• Phase sombre (Cycle de Calvin) : Utilise l'énergie accumulée pour transformer le dioxyde de carbone (CO2) en glucose."
+        ],
+        "gemini_analysis": "Gemini error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 53.64367701s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}"
+    }
+]
